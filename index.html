@@ -1,100 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-    <title> 测试 </title>
-    <link rel="stylesheet" type="text/css" href="/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport"   content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+    <title>Enter your first name</title>
+
+    <link rel="stylesheet"  href="build/css/master.css">
+
 </head>
+
 <body>
 
+<label for="firstname">Enter your first name</label>
+<input id="firstname" name="firstname" type="text">
+<p id="namevalidation" class="validation"></p>
 
-<div class="wrapper">
-
-	<div id="divTest">
-        <span>0</span> <span>1</span> <span>2</span> <span>3</span>
-    </div>
-    <div id="divTest2">
-        <span>0</span> <span>1</span> <span>2</span> <span>3</span>
-    </div>
-
-
-
-	<div class="header fix-header clearfix">
-		<div class='nav'>
-			<ul class="nav-list">
-				<li class='nav-item'><a>css教程</a></li>
-				<li class='nav-item'><a>java教程</a></li>
-				<li class='nav-item'><a>php教程</a></li>
-				<li class='nav-item'><a>node.js教程</a></li>
-				<li class='nav-item'><a>div教程</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="main clearfix">
-		<div class="main-left">
-			<h2 class="post-title">这里是文章标题</h2>
-			<div class="content">
-				<p>1. 联系布局。 </p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-				<p>这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，这里是文章内容，</p> <br>
-			</div>
-		</div>
-
-		<div class="main-right">
-			<div class='side-box'>
-				<h2 class="side-box-title">这里是标题</h2>
-				<ul class="side-box-list">
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-				</ul>
-			</div>
-
-			<div class='side-box'>
-				<div class="">
-					<h2 class="side-box-title">这里是标题</h2>
-					<span class="more">查看更多哟</span>
-				</div>
-				
-				<ul class="side-box-list">
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-					<li class='list-item'><a>css教程css教程css教程</a></li>
-				</ul>
-			</div>
-
-		</div>
-	</div>
-	
-	<div class="footer clearfix">
-		这里是页面底部
-	</div>
-
-
-
-</div>
-<script type="text/javascript" src="/js/zepto.js"></script>
-<!-- <script type="text/javascript" src="./jquery.js"></script> -->
-<script type="text/javascript" src="/js/index.js"></script>
+<script type="text/javascript" src="build/js/base.min.js"></script>
 
 </body>
+
 </html>

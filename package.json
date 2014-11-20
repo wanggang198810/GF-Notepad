@@ -1,0 +1,35 @@
+{
+  "name": "gfnotepad",
+  "version": "1.0.0",
+  "description": "GF-Notepad ==========",
+  "main": "fis-conf.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.5.1"
+  },
+  "devDependencies": {
+      "grunt" :                       "~0.4.5",
+      "grunt-contrib-cssmin":         "*",
+      "grunt-contrib-sass":           "*",
+      "grunt-contrib-uglify":         "*",
+      "grunt-contrib-watch":          "*",
+      "grunt-cssc":                   "*",
+      "grunt-htmlhint":               "*",
+      "matchdep":                     "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanggang198810/GF-Notepad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanggang198810/GF-Notepad/issues"
+  },
+  "homepage": "https://github.com/wanggang198810/GF-Notepad"
+}
